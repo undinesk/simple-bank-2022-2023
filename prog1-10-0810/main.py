@@ -34,6 +34,10 @@ class Customer:
         print(f"😀 Transaction report for customer {self.name} {self.surname}")     
         for account in self.accounts:
             account.print_transactions()
+         
+     def calculate_percentages(self):
+        for account in self.accounts:
+            print(self.amaount+self.amaount*0.5%)
 
 # KOMANDAS UZDEVUMS 2
 # Izveido Account klases 2 metodes:
